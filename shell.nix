@@ -5,8 +5,8 @@ pkgs.mkShell {
     python312
     python312Packages.discordpy
     python312Packages.python-dotenv
-    python312packages.black
-    python312packages.flake8
+    python312Packages.black
+    python312Packages.flake8
   ];
 
   shellHook = ''
